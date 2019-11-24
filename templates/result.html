@@ -1,0 +1,11 @@
+<section class="row">
+    {% for cluster in images %}
+      {% for image in cluster.cluster %}
+      <section>
+        <!-- <img href="{{ image }}">{{ image }}</img> -->
+        <img src="{{image}}" height="100" width="100">
+      </section>
+{% endfor %}
+<p>--------------CLUSTER-----------------</p>
+    {% endfor %}
+  </section>
