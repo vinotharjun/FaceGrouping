@@ -1,4 +1,5 @@
 # FaceGrouping
+(Refer API documentation in document.pdf)
 grouping photos by its facial similarity
 # Run the server
 python app.py
